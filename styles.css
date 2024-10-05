@@ -15,6 +15,11 @@ h1 {
     padding-bottom:0;
     border-radius: 10px;
 }
+.index_Back {
+    color:	#64c2ec;
+    background-color:#000000;
+    padding: 20px;
+}
 .top {
     position:fixed;
     width: 100%;
@@ -24,30 +29,23 @@ h1 {
     background-color:#113547;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-
-}
-
-.index_Back {
-    color:	#64c2ec;
-    background-color:#000000;
-    padding: 20px;
-}
-
-.linkbar {
     margin: 5px;
-    top: 0;
-    color: #64c2ec;
     text-align: center;
     white-space-collapse: nowrap;
 }
 
-.link {
+.top a {
     margin: 10px;
     padding: 10px;
-
     color: #64c2ec;
     background-color:#277ca5;
     width: 90px;
     border-radius: 10px;
-    display:inline-block
+    display:inline-block;
+
+}
+.top a:hover, .top a.active {
+    color:#113547;
+    font-weight: 1500;
+    background-color:#64c2ec;
 }
