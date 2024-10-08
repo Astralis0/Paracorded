@@ -1,5 +1,6 @@
 body {
-        font-family: Verdana;
+    font-family: Verdana;
+
 }
 
 h1 {
@@ -14,6 +15,7 @@ h1 {
     padding-top:20px;
     padding-bottom:0;
     border-radius: 10px;
+
 }
 .index_Back {
     color:	#64c2ec;
@@ -25,27 +27,33 @@ h1 {
     width: 100%;
     top: 0;
     right: 0;
-    color:	#64c2ec;
     background-color:#113547;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin: 5px;
     text-align: center;
+    transition-duration: 0.4s;
     white-space-collapse: nowrap;
 }
 
 .top a {
     margin: 10px;
     padding: 10px;
+    padding-bottom: 13px;
+    padding-top: 13px;
     color: #64c2ec;
     background-color:#277ca5;
     width: 90px;
     border-radius: 10px;
     display:inline-block;
+    transition-duration: 0.4s;
 
 }
 .top a:hover, .top a.active {
     color:#113547;
-    font-weight: 1500;
     background-color:#64c2ec;
+    font-weight: 1500;
+}
+.top a:hover{
+    margin: 5px;
+    padding: 15px;
 }
