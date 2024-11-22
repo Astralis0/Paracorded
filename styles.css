@@ -6,21 +6,23 @@ body {
 h1 {
     text-align: center;
     font-size: 300%;
+    margin-top: 100px;
+    margin-bottom:50px
 }
 
 .center {
-    margin: 5%;
+    margin: 8%;
     margin-top: 0%;
-    padding: 20%;
-    padding-top:20px;
+    padding: 25%;
+    padding-top:25px;
     padding-bottom:0;
     border-radius: 10px;
 }
 
 .index_Back {
-    color:	#64c2ec;
-    background-color:#000000;
-    padding: 20px;
+    color:	#00a8f3;
+    background-color:#253542;
+    padding: 15px;
 }
 
 .top {
@@ -28,37 +30,36 @@ h1 {
     width: 100%;
     top: 0;
     right: 0;
-    background-color:#113547;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    background-color:#071e29;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     text-align: center;
     transition-duration: 0.4s;
     white-space-collapse: nowrap;
 }
 
 .top a {
-    margin: 10px;
-    padding: 10px;
-    padding-bottom: 13px;
-    padding-top: 13px;
-    color: #64c2ec;
+    margin: 15px;
+    padding: 15px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    color: #00a8f3;
     background-color:#277ca5;
-    width: 90px;
-    border-radius: 10px;
+    width: 120px;
+    border-radius: 13px;
     display:inline-block;
     transition-duration: 0.4s;
-
 }
 
 .top a:hover, .top a.active {
     color:#113547;
-    background-color:#64c2ec;
+    background-color:#00a8f3;
     font-weight: 1500;
 }
 
 .top a:hover{
     margin: 5px;
-    padding: 15px;
+    padding: 20px;
 }
 
 .products {
@@ -68,8 +69,14 @@ h1 {
     padding-top:20px;
     padding-bottom:0;
 }
+.logo {
+    width: 30%;
+}
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
+    .logo{
+        width: 100%;
+    }
     .center {
         margin: 0;
         padding: 15px;
@@ -82,8 +89,11 @@ h1 {
         width: 20%;
     }
 
-    .top a:hover{
-        margin: 1.5%;
-        padding: 4%;
+    .top a:active{
+        margin: 3%;
+        padding: 3%;
+    }
+    h2{
+        font-size: x-large;
     }
 }
