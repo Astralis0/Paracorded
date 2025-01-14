@@ -30,6 +30,7 @@ h1 {
     width: 100%;
     top: 0;
     right: 0;
+    font-weight: 600;
     background-color:#071e29;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -39,6 +40,7 @@ h1 {
 }
 
 .top a {
+    font-weight: 900;
     margin: 15px;
     padding: 15px;
     padding-bottom: 18px;
@@ -62,18 +64,67 @@ h1 {
     padding: 20px;
 }
 
-.products {
-    margin: 15px;
-    margin-top: 0%;
-    padding: 100px;
-    padding-top:20px;
-    padding-bottom:0;
+.bottom {
+    position:fixed;
+    width: 20%;
+    bottom: 0;
+    right: 0;
+    background-color:#277ca5;
+    color:#113547;
+    border-top-left-radius: 15px;
+    text-align: center;
+    transition-duration: 0.4s;
+    white-space-collapse: nowrap;
+    font-weight: 900;
+    font-size: large;
 }
+
+.bottom a{
+    color:#00a8f3;
+}
+
 .logo {
     width: 30%;
 }
 
+.mobile-only {
+    display: none;
+}
+.desktop-only {
+    display: contents;
+}
+
+.buttonT1 {
+
+}
+.buttonT2{
+    width: 180px;
+    height: 220px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-table;
+    background-color: #071e29;
+    align-content: center
+}
+.buttonT1 h2 {
+    padding-left: 10px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.buttonT2 img{
+    width: 100%;
+}
+.buttonT2 h3 {
+    margin-top: 0;
+}
 @media only screen and (max-width: 700px){
+    .mobile-only {
+        display: contents;
+    }
+    .desktop-only {
+        display: none;
+    }
     .logo{
         width: 100%;
     }
@@ -95,5 +146,9 @@ h1 {
     }
     h2{
         font-size: x-large;
+    }
+    .buttonT2 {
+        width: 100px;
+        height: 130px;
     }
 }
